@@ -2,7 +2,7 @@ import { useCounter } from "../hooks/useCounter"
 
 export const ContadorConHook = () => {
 
-    const { valor, acumular } = useCounter();
+    const { valor, acumular } = useCounter(100);
     
     return (
         <>
